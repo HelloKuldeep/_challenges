@@ -34,20 +34,11 @@ int main(){
     Graph *graph;
     graph=createGraph(totalVertices);
     //connect edges
-    addEdge(graph,0,1);
+    addEdge(graph,1,0);
     addEdge(graph,0,2);
-    addEdge(graph,0,3);
-    addEdge(graph,1,3);
     addEdge(graph,2,3);
-    /*
-    addEdge(graph,0,1);
-    addEdge(graph,0,4);
-    addEdge(graph,1,2);
     addEdge(graph,1,3);
-    addEdge(graph,1,4);
-    addEdge(graph,2,3);
-    addEdge(graph,3,4);
-    */
+    addEdge(graph,3,0);
     //print the adjacency list representation of graph
     printGraph(graph);
 }
