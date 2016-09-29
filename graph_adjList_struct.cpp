@@ -1,5 +1,5 @@
 /*
-    Graph implementation following  tutorial http://www.geeksforgeeks.org/graph-and-its-representations/
+  Graph implementation following  tutorial http://www.geeksforgeeks.org/graph-and-its-representations/
 */
 #include<iostream>
 #include<cstdlib>
